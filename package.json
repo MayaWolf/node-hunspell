@@ -1,0 +1,19 @@
+{
+  "name": "hunspell",
+  "description": "Hunspell bindings for Node.js",
+  "keywords": [
+    "Hunspell",
+    "Spellcheck"
+  ],
+  "author": "Maya Wolf",
+  "version": "1.0.0",
+  "main": "build/Release/binding.node",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MayaWolf/node-hunspell.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "hunspell": "git://github.com/hunspell/hunspell#semver:^1.6.2"
+  }
+}
